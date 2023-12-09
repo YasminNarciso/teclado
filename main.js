@@ -25,11 +25,11 @@ for ( let i = 0; i < listaDeTeclas.length; i++){
     tecla.onkeydown = function (evento) {
 
         if (evento.code === 'Enter' || evento.code === 'Space') {
-            tecla.classList.add('ative');
+            tecla.classList.add('ativa');
         }  
     }
 
     tecla.onkeyup = function () {
-        tecla.classList.remove('ative');
+        tecla.classList.remove('ativa');
     }
 }
